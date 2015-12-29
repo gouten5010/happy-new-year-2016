@@ -4,26 +4,45 @@
 	<meta charset="UTF-8">
     <title></title>
 	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="stylesheet" type="text/css" href="./css/monkey.css">
 </head>
 <body>
     <div class="wrapper">
-        <header>
-            <h1>あけましておめでとうございます</h1>
-            <h2>今年もよろしくお願いします</h2>
+        <header class="header">
+            <h1>A HAPPY NEW YEAR 2016</h1>
         </header>
-        <article>
-            <div class="inner">
-                <p class="monkey"><span>CSSで鳥獣戯画の猿を描いてみた</span></p>
-            </div>
-            <p>
-                前年はお世話になりましたし今年もお世話になるかと思いますので、本年もよろしくお願い致します。
-            </p>
+        <article class="content">
+            <section>
+                <h1 class="hide">CSSで鳥獣戯画の猿を描いてみた</h1>
+                <div class="mainWrap">
+                    <div class="monkey"></div>
+                </div>
+            </section>
+            <section>
+                <h1 class="hide">CSSで富士山を描いてみた</h1>
+                <div class="mountain">
+                    <img src="./img/fuji.png">
+                    <div class="sun"></div>
+                </div>
+            </section>
+            <section class="text">
+                <h1>あけましておめでとうございます</h1>
+                <p>
+                    年始からわざわざアクセスしていただきありがとうございます。<br>
+                    本年もいろいろお世話になるかと思いますし、よろしくお願い致します。
+                </p>
+            </section>
+
         </article>
         <footer>
-            <address>〒577-0056 大阪府東大阪市長堂1丁目5-10-402</address>
             <p>Takenori Okashita (GOUTEN)</p>
+            <ul class="share">
+                <li><a href="https://twitter.com/gouten5010" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.facebook.com/gouten5010" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://github.com/gouten5010" class="github" target="_blank"><i class="fa fa-github"></i></a></li>
+            </ul>
         </footer>
     </div>
 </body>
