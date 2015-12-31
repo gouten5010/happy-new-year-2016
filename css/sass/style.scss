@@ -89,25 +89,25 @@ p {
                         border-radius: 50%;
                         position: absolute;
                         top: -15px;
-                        &:nth-child(1) {
+                        &.sd01 {
                             left: 0;
                         }
-                        &:nth-child(2) {
+                        &.sd02 {
                             left: 30px;
                         }
-                        &:nth-child(3) {
+                        &.sd03 {
                             left: 60px;
                         }
-                        &:nth-child(4) {
+                        &.sd04 {
                             left: 90px;
                         }
-                        &:nth-child(5) {
+                        &.sd05 {
                             left: 120px;
                         }
-                        &:nth-child(6) {
+                        &.sd06 {
                             left: 150px;
                         }
-                        &:nth-child(7) {
+                        &.sd07 {
                             left: 180px;
                         }
                     }
